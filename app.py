@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Flask Calculator API"
+    return "My Flask Calculator API"
 
 @app.route('/add', methods=['GET'])
 def add():
